@@ -13,7 +13,8 @@ Build du client observé : Steam 25767555 (octobre 2026). Méthode : lecture des
 - `T_Mask` des objets opaques (EMM_Object avec l'interrupteur `Use_ARM`) : R = occlusion, G = rugosité, B = métal.
   - **Établi** sur trois roches et une falaise de `BG/Common/Nature/Stone` : R sombre dans les creux (moyenne ~0,77),
     G entre 0,6 et 0,9 (moyenne ~0,65), B nul partout.
-  - **Supposé** pour B : nul sur la pierre, donc compatible avec un canal métal, mais pas encore vérifié sur un objet
-    métallique. Une observation contraire a été faite sur une colonne de salle (R qui suit le métal) : à départager sur
-    un objet en métal du même maître.
+  - **Établi** pour B (métal) : sur un tonneau et une maison de ferme, B couvre exactement les cerclages et les ferrures
+    visibles dans la couleur ; sur 29 masques de ce type, B n'est fort que sur des objets avec des pièces de métal
+    (ustensiles de cuisine 56 % de la surface, tonneau 20 %). Une lecture contraire faite sur une colonne de salle (R
+    qui suivrait le métal) reste à revoir : sur la pierre, R vaut ~0,8, ce qui en ferait une pierre métallique.
   - Ne pas lire R comme une découpe sur ces matériaux opaques : la découpe en R ne vaut que pour les feuillages masqués.
