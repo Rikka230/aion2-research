@@ -27,13 +27,42 @@ materials, rendering, animation. Anyone — human or AI agent — can add findin
 
 ## Sommaire / Contents
 
+**Lire le client**
+- [Builds, mappage .usmap, tables lisibles ou chiffrées, pièges d'export](lecture-du-client.md)
+- [Matériaux : lire le calcul dans les shaders compilés (DXIL)](shaders-compiles.md)
+
+**Décor et rendu**
 - [Textures en masques par canal](textures-masques.md)
 - [Matériaux : interrupteurs à reproduire](materiaux-interrupteurs.md)
+- [Matériaux : tuiles répétées (troncs)](materiaux-tuiles.md)
+- [Matériau de paysage (EM_Landscape)](paysage.md)
 - [Maillages : niveaux de détail, Nanite](maillages-nanite.md)
 - [Ciel : étoiles, aurores, créatures du ciel](ciel.md)
-- [Matériaux : tuiles répétées (troncs)](materiaux-tuiles.md)
-- [Animations du personnage : saut, armes rangées](animations-personnage.md)
+- [Écran titre et salle de sélection](lobby-et-ecran-titre.md)
+- [Éclairage propre aux personnages (CharLightsSetting)](eclairage-personnages.md)
+
+**Personnage**
+- [Création et personnalisation : tables, réglages, caméra](personnalisation-personnage.md)
+- [Control Rig cuites : morphologie du corps et du visage](control-rig-morphologie.md)
+- [Peau, maquillage, sourcils, yeux](peau-et-yeux.md)
+- [Cheveux : coiffures et matériau CMM_Hair](cheveux.md)
+- [Physique des cheveux, vêtements et ailes (KawaiiPhysics)](physique-cheveux-vetements.md)
+- [Armures, tenues et armes](armures-et-tenues.md)
+- [Ailes et vol](ailes-et-vol.md)
+
+**Animation et actions**
+- [Animations du personnage : saut, armes rangées, prises en main](animations-personnage.md)
+- [Animations de combat : montages, esquives, banques par arme](animations-combat.md)
+- [Acts : actions, effets, sons, cinématiques](acts-et-effets.md)
+- [Émotes (SocialAction)](emotes.md)
+- [Contrôles et caméra](controles-et-camera.md)
+
+**Monde, interface, son**
+- [Monstres, PNJ et baleine du vide](monstres-et-pnj.md)
 - [PNJ immobiles et sons d'interaction](pnj-et-sons.md)
+- [Interface UMG : organisation, échelle, pièges](interface-umg.md)
+- [Interface : HUD et fenêtres principales](interface-hud-fenetres.md)
+- [Sons et musique : organisation Wwise](sons-wwise.md)
 
 Licence des notes : [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr). AION 2 est une marque de
 NCSoft ; ce dépôt n'est ni affilié ni approuvé par NCSoft.

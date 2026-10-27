@@ -16,3 +16,10 @@
   non, échoue (« Mesh has no LOD data »).
 - Question ouverte : ces arbres ont-ils une géométrie Nanite plus fine que le LOD 0 ? Tant que le format Nanite n'est pas décodé,
   le LOD 0 est la meilleure géométrie disponible.
+
+## Mise à jour (fin octobre 2026)
+- Une option d'export Nanite ajoutée à un lecteur sur mesure n'a rien apporté : le format Nanite d'AION 2 reste non décodé.
+  Pour `COM_TreeE02`, seul le maillage de repli sort (1 LOD, 4 754 sommets, facettes visibles).
+- `DRA_WhaleA01` est une pièce de donjon statique en Nanite seulement, pas une créature du ciel.
+- Les armes déclenchent à l'import un repli de matériau incompatible avec Nanite ; désactiver Nanite sur la copie supprime
+  l'avertissement.

@@ -27,3 +27,10 @@
 1. Exporter les trois séquences d'Odar_01 et comparer, os par os, l'écart angulaire de chaque clé avec la première.
 2. Lire le JSON de `ABP_NPC_Odar_01_PP` : types des nœuds d'animation.
 3. Décoder les médias des évènements `PC_ArtifactInteraction_*` et comparer leurs durées et leurs RMS par demi-seconde.
+
+## Mise à jour (build 25767555, fin octobre 2026)
+- `Odar_01` : maillage d'environ 46 m, yeux à ≈ 5,8 m ; matériaux du corps, des feuilles et de l'œil. Séquences
+  supplémentaires `Sidle01_Start` / `_End`. Une différence d'images à 9 et 12 s confirme que le mouvement visible vient du
+  vent des feuilles.
+- Le média de la boucle de gravure s'appelle `PC_FX_ArtifactInteraction_Loop_01`. Autres PNJ et organisation des sons :
+  [monstres-et-pnj](monstres-et-pnj.md), [sons-wwise](sons-wwise.md), [acts-et-effets](acts-et-effets.md).

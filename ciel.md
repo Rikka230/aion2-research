@@ -24,3 +24,12 @@ scintillement par une troisième lecture qui dérive lentement. À éviter : une
   texture `_DO` avec alpha) ; squelette de `SkyWhale_01`, vol plané `VEH_SkyWhale_01_Glide_Loop_Normal`.
 - Raie du ciel : `Character/Monster/Animal/Skyray/Skyray_01`, vol `MOB_Skyray_01_Run`. Pose de liaison « debout » :
   lire l'orientation sur la pose animée.
+
+## Mise à jour (build 25767555, fin octobre 2026)
+- Correction : `VEH_SkyWhale_02` est une **monture** (préfixe `VEH_`), pas une baleine de décor. Son
+  `VEH_SkyWhale_02_SignatureFX` lance trois rubans le long de la queue et des nageoires ; aucune baleine de décor animée
+  n'apparaît dans l'index.
+- La grande baleine du ciel est `NPC_Void_001` (Blueprint `BPCh_NewVoid`, ≈ 864 m, auréole et six systèmes d'effets) :
+  voir [monstres-et-pnj](monstres-et-pnj.md).
+- La teinte des étoiles (`Stars Color`) et deux couches triplanaires à des échelles sans rapport simple suffisent ; une
+  projection équirectangulaire donne des carrés, un cube à six faces montre ses arêtes (confirmé).

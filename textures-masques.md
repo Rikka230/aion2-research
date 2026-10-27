@@ -18,3 +18,18 @@ Build du client observé : Steam 25767555 (octobre 2026). Méthode : lecture des
     (ustensiles de cuisine 56 % de la surface, tonneau 20 %). Une lecture contraire faite sur une colonne de salle (R
     qui suivrait le métal) reste à revoir : sur la pierre, R vaut ~0,8, ce qui en ferait une pierre métallique.
   - Ne pas lire R comme une découpe sur ces matériaux opaques : la découpe en R ne vaut que pour les feuillages masqués.
+
+## Mise à jour : masques des personnages et de l'interface (build 25767555, fin octobre 2026)
+- Colonne de la salle de sélection (`Lobby_Pillar_01M`) : une lecture R = métal y a été proposée. Sur la pierre, R vaut
+  ≈ 0,8 ; la convention R = occlusion ci-dessus reste la mieux établie, à revoir maître par maître.
+- Anneaux de l'écran titre (`EMM_AteriaRing`) : masque dans **B**, alpha blanc. Texture de flux des nuages : bleutée, à ne
+  pas importer comme une normale.
+- Personnages, détails dans les notes thématiques :
+  - `Cstm_Pupil_01` : pupille dans R, alpha plein ; `Eye_AO_M_01` : cils (G haut, B bas) ; `Eye_AO_M_07` : larme (R) ;
+  - `Cstm_EyeBrow_T2A` : B crayon, A poils ; `MK_Head_EEE_xx` : R fard, G liner, B coin ;
+  - `T_Hair_0x_DOI` : R couleur, G opacité ;
+  - monstres : `_DYE` = couleur (× 2), `_SEE` : R diffusion, G émissif ;
+  - armures : `_SE` : R diffusion, G émissif ; `_CSTM` : zones de teinte ;
+  - ailes `WingA_001_CSTM` : R et G = deux zones de teinte.
+  Voir [peau-et-yeux](peau-et-yeux.md), [cheveux](cheveux.md), [armures-et-tenues](armures-et-tenues.md),
+  [monstres-et-pnj](monstres-et-pnj.md).
