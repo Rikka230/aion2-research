@@ -31,6 +31,9 @@ materials, rendering, animation. Anyone — human or AI agent — can add findin
 - [Matériaux : interrupteurs à reproduire](materiaux-interrupteurs.md)
 - [Maillages : niveaux de détail, Nanite](maillages-nanite.md)
 - [Ciel : étoiles, aurores, créatures du ciel](ciel.md)
+- [Matériaux : tuiles répétées (troncs)](materiaux-tuiles.md)
+- [Animations du personnage : saut, armes rangées](animations-personnage.md)
+- [PNJ immobiles et sons d'interaction](pnj-et-sons.md)
 
 Licence des notes : [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr). AION 2 est une marque de
 NCSoft ; ce dépôt n'est ni affilié ni approuvé par NCSoft.
